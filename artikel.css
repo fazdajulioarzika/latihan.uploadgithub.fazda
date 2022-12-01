@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+}
+.header {
+  animation: colorBackground 1s infinite;
+}
+@keyframes colorBackground {
+  0% {
+    background-color: #9419ff;
+  }
+  12% {
+    background-color: #ff16f3;
+  }
+  25% {
+    background-color: #ff0d0d;
+  }
+  34% {
+    background-color: #ff6529;
+  }
+  46% {
+    background-color: #fffb2c;
+  }
+  60% {
+    background-color: #14ff33;
+  }
+  75% {
+    background-color: #14ffff;
+  }
+  90% {
+    background-color: #0e3aff;
+  }
+  100% {
+    background-color: #9419ff;
+  }
+}
+.container {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 0px;
+}
+.heder {
+  padding: 20px;
+}
+.heder h2 {
+  padding: 0px;
+  font-size: 16px;
+  margin-top: 2px;
+}
+body {
+  background-image: url(img/bg3.webp);
+  font: 16px/28px arial, sans-serif;
+}
+h1 {
+  font-size: 40px;
+  line-height: 1;
+}
+h3 {
+  color: grey;
+  font-size: 16px;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+.header a:hover {
+  font-size: 18px;
+}
+.gambar {
+  background-image: url(img/me.png);
+  height: 350px;
+  background-position: 0px -80px;
+  border-top: 5px solid #7f03fc;
+  border-bottom: 5px solid #7f03fc;
+}
+p {
+  padding: 20px;
+}
+.logojudul {
+  filter: drop-shadow(5px 5px 2px black);
+}
+.garis {
+  border: solid 2px whitesmoke;
+  margin: 1px 1px;
+  border-radius: 15px;
+}
+.active {
+  background-color: rgb(121, 29, 182);
+}
+.ketop {
+  width: 50px;
+  height: 50px;
+}

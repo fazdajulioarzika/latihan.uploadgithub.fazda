@@ -1,0 +1,123 @@
+.header {
+  animation: colorBackground 1s infinite;
+}
+@keyframes colorBackground {
+  0% {
+    background-color: #9419ff;
+  }
+  12% {
+    background-color: #ff16f3;
+  }
+  25% {
+    background-color: #ff0d0d;
+  }
+  34% {
+    background-color: #ff6529;
+  }
+  46% {
+    background-color: #fffb2c;
+  }
+  60% {
+    background-color: #14ff33;
+  }
+  75% {
+    background-color: #14ffff;
+  }
+  90% {
+    background-color: #0e3aff;
+  }
+  100% {
+    background-color: #9419ff;
+  }
+}
+#content {
+  text-shadow: 2px 2px black;
+}
+.logojudul {
+  filter: drop-shadow(5px 5px 2px black);
+}
+.logobanner {
+  filter: drop-shadow(5px 5px 2px rgb(170, 44, 255));
+}
+.banner p {
+  text-shadow: 2px 2px 1px #000000;
+}
+.cproduk {
+  margin: a uto;
+}
+
+.banner {
+  background-image: url(img/bg1.webp);
+  background-size: cover;
+}
+.team {
+  border: solid 3px white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  transition: 250ms;
+}
+.team:hover {
+  width: 410px;
+  height: 270px;
+}
+#project {
+  background-color: #6c757d;
+}
+.gallery {
+  border: solid 2px white;
+  box-shadow: 5px 5px 3px black;
+  transition: 250ms;
+}
+.gallery:hover {
+  width: 310px;
+  height: 210px;
+}
+.list {
+  width: 50%;
+}
+.hub {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.list ul {
+  margin-bottom: 30px;
+  border: 2px solid black;
+  display: inline-block;
+  padding: 0px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  background-color: rgb(195, 134, 252);
+}
+.list ul li {
+  border-top: 2px solid black;
+  padding: 10px;
+}
+.list ul li a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 3px black;
+}
+.list ul :nth-child(1) {
+  border-top: none;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+}
+.list ul li:hover {
+  background-color: rgb(43, 211, 169);
+}
+.list ul :nth-child(7) {
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+.garis {
+  border: solid 2px whitesmoke;
+  margin: 1px 2px;
+  border-radius: 15px;
+}
+.active {
+  background-color: rgb(121, 29, 182);
+}
+.ketop {
+  width: 50px;
+  height: 50px;
+}
